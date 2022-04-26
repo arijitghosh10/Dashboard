@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/http//arijitghosh10.github.io/Dashboard/static/css/main.8565ed3f.css",
+    "main.js": "/http//arijitghosh10.github.io/Dashboard/static/js/main.26d86f3e.js",
+    "index.html": "/http//arijitghosh10.github.io/Dashboard/index.html",
+    "main.8565ed3f.css.map": "/http//arijitghosh10.github.io/Dashboard/static/css/main.8565ed3f.css.map",
+    "main.26d86f3e.js.map": "/http//arijitghosh10.github.io/Dashboard/static/js/main.26d86f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8565ed3f.css",
+    "static/js/main.26d86f3e.js"
+  ]
+}
