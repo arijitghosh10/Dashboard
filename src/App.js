@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import { Grid } from '@mui/material';
 import './App.css';
+import Blogs from './components/Content/Blogs';
+import Events from './components/Content/Events';
+import TimePeriod from './components/Content/TimePeriod';
+import Users from './components/Content/Users';
+import Graph from './components/Graph';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Grid item xs>
+        <Graph />
+      </Grid>
+        <Grid container spacing={2} sx={{marginTop:'0.5rem'}}>
+          <Grid item xs={3}>
+            <Users />
+          </Grid>
+          <Grid item xs>
+            <Blogs />
+          </Grid>
+          <Grid item xs={3}>
+            <Events />
+          </Grid>
+          <Grid item xs={3}>
+            <TimePeriod />
+          </Grid>
+        </Grid>
+    </>
   );
 }
 
